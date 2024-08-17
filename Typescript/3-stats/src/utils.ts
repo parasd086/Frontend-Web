@@ -1,4 +1,5 @@
 export const dateStringToDate = (dateString: string): Date => {
+  //"23/08/2024" it returns => [23, 08, 2024]
   const dateParts = dateString.split("/").map((value: string): number => {
     return parseInt(value);
   });
