@@ -1,0 +1,46 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0 6.7em;
+  background: #fcf5eb;
+  font-family: "Poppins";
+}
+
+main {
+  margin: 5em;
+}
+
+h1 {
+  font-family: "Playfair Display";
+}
+
+h1.mainhead {
+  margin-top: 5em;
+  font-size: 4.4rem;
+  position: relative;
+}
+
+h1.mainhead::before {
+  content: "N";
+  position: absolute;
+  font-size: 30rem;
+  color: rgba(0, 0, 0, 0.05);
+  top: -18rem;
+  left: -8rem;
+}
+
+section {
+  border-top: 1px solid black;
+  display: flex;
+  gap: 6.6rem;
+}
+
+article h1 {
+  font-size: 2.2rem;
+}
+
+article p {
+  font-size: 1.4rem;
+}
